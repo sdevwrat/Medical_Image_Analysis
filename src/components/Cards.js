@@ -9,7 +9,7 @@ import Malaria from '../Images/Malaria.jpg';
 const Cards = () => {
 	return(
     <section class="wrapper style1">
-        <div class="inner z-2">
+        <div class="inner">
         <h1>Topic btao yha paas ka</h1>
           <article class="feature left">
             <span class="image"><img src={skin} alt="" /></span>

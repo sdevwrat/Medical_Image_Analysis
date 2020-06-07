@@ -1,5 +1,7 @@
 .read-more {
      text-align: left;
+     font-weight: 800;
+     font-size: 18px;
 }
  .read-more a {
      color: #5ad67d;
@@ -27,9 +29,15 @@
 .content p {
      position: relative;
      margin: 1rem 0 0;
+     font-family:Bodoni MT;
+     color: #19191d; 
+     font-size: 1.1em;
 }
 .content p:first-of-type {
      margin-top: 1.25rem;
+}
+.content h1{
+    color: #000425;
 }
  .content p:first-of-type:before {
      content: "";
@@ -50,6 +58,7 @@
         -ms-align-items: center;
         align-items: center;
         margin-bottom: 2em;
+        border-radius: .7em;
     }
 
         .feature.left {
@@ -68,18 +77,18 @@
 
         .feature .image {
             width: 48%;
-            padding: 
         }
 
             .feature .image img {
                 max-width: 100%;
+                border-radius: .7em;
             }
 
         .feature .content {
             width: 52%;
         }
         .content{
-            padding-left: 2em;
+            padding: 0 1em 0 1em;
         }
         @media screen and (max-width: 1280px) {
 
@@ -88,7 +97,7 @@
             }
 
                 .feature .content {
-                    padding: 1em 2em 0.1em 2em;
+                    padding:0 1em 0 1em;
                 }
 
         }

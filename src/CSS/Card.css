@@ -29,7 +29,7 @@
 .content p {
      position: relative;
      margin: 1rem 0 0;
-     font-family:Bodoni MT;
+     font-family:Bodoni MT,serif;
      color: #19191d; 
      font-size: 1.1em;
 }
@@ -37,6 +37,7 @@
      margin-top: 1.25rem;
 }
 .content h1{
+    font-family: "Arial Black", Gadget, sans-serif;
     color: #000425;
 }
  .content p:first-of-type:before {
@@ -81,7 +82,7 @@
 
             .feature .image img {
                 max-width: 100%;
-                border-radius: .7em;
+                border-radius: .5em;
             }
 
         .feature .content {
@@ -155,7 +156,7 @@
     }
         .wrapper > .inner {
             margin: 0 auto;
-            width: 50em;
+            width: 53em;
         }
 
         .wrapper.style1 {
@@ -228,3 +229,54 @@ background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, F
             position: relative;
             text-align: left;
         }
+        .image {
+        border-radius: 0;
+        border: 0;
+        display: inline-block;
+        position: relative;
+    }
+
+        .image img {
+            border-radius: 0;
+            display: block;
+        }
+
+        .image.left, .image.right {
+            max-width: 40%;
+        }
+
+            .image.left img, .image.right img {
+                width: 100%;
+            }
+
+        .image.left {
+            float: left;
+            padding: 0 1.5em 1em 0;
+            top: 0.25em;
+        }
+
+        .image.right {
+            float: right;
+            padding: 0 0 1.5em 1.5em;
+            top: 0.25em;
+        }
+
+        .image.fit {
+            display: block;
+            margin: 0 0 2em 0;
+            width: 100%;
+        }
+
+            .image.fit img {
+                width: 100%;
+            }
+
+        .image.main {
+            display: block;
+            margin: 0 0 3em 0;
+            width: 100%;
+        }
+
+            .image.main img {
+                width: 100%;
+            }

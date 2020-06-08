@@ -34,13 +34,12 @@
   padding: 2%;
   left:200px;
   width: 45%;
-  font-family: helvetica
 }
 .intro--banner p{
   color: white;
   line-height: 1.5;
   font-size: 1.1em;
-  font-weight: 700;
+  font-family:Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana, sans-serif
 }
 .intro--banner h1 {
   position: relative;

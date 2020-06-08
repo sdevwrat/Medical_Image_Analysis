@@ -67,7 +67,7 @@ by analysing chest x-rays.</p>
             <span className="image"><img src={retina} alt="Diabetic retinopathy" /></span>
             <div className="content">
               <h1>Diabetic Retinopathy </h1>
-              <p>It is the most common and insidious microvascular complication of diabetes, and can progress asymptomatically until a sudden loss of vision occurs.Deep CNNs,8 can be used for an end-to-end assessment of raw medical images to produce a target outcome prediction.</p>
+              <p>It is the most common and insidious microvascular complication of diabetes, and can progress asymptomatically until a sudden loss of vision occurs. Primary benefit of Deep learning in ophthalmology would be in screening of Diabetic Retinopathy.</p>
               <p className="read-more">
                <a href="https://diabetes.medinform.tk/">Go to Page</a>
               </p>

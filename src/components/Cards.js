@@ -16,7 +16,7 @@ const Cards = () => {
             <span className="image"><img src={tuber} alt="Tuberculosis" /></span>
             <div className="content">
               <h1>Tuberculosis</h1>
-              <p>A potentially serious infectious bacterial disease that mainly affects the lungs.It affects many people in developing countries and treating it requires an accurate diagnosis,An algorithm that could perform this task quickly and cheaply could drastically improve the ability to diagnose and ultimately treat the disease.</p>
+              <p>A potentially serious infectious bacterial disease that mainly affects the lungs.It affects many people in developing countries and treating it requires an accurate diagnosis. An algorithm that could perform this task quickly and cheaply could drastically improve the ability to diagnose and ultimately treat the disease.</p>
               <p className="read-more">
                <a href="https://tbc.medinform.tk/">Go to Page</a>
               </p>

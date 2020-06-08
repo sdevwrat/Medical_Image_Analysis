@@ -3,7 +3,7 @@ import Cards from './components/Cards';
 import Description from './components/Description';
 import Footer from './components/Footer';
 import './CSS/App.css';
-import logo from './Images/logo.jpeg';
+import logo from './Images/logo2.png';
 
 class App extends Component{
   render(){

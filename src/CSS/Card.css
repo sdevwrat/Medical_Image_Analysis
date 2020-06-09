@@ -60,6 +60,14 @@
         align-items: center;
         margin-bottom: 2em;
         border-radius: .7em;
+      -moz-osx-font-smoothing: grayscale;
+      backface-visibility: hidden;
+      transform: translateZ(0);
+      transition: transform 0.30s ease-out;
+
+    }
+    .feature:hover,.feature:focus{
+        transform: scale(1.12);
     }
 
         .feature.left {

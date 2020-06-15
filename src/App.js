@@ -9,7 +9,7 @@ class App extends Component{
   render(){
   return (
     <div className="App">
-      <a href='https://medinform.tk/' className="pointer"><img className="logo" src={logo} alt='logo'/></a>
+      <a href='https://medinform.tk/' className="pointer"><img className="logo" src={logo} alt='Our logo'/></a>
       <Description />
       <Cards />
       <Footer />
